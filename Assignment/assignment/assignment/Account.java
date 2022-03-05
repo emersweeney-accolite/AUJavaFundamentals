@@ -11,6 +11,7 @@ public class Account {
 		this.accountType = accountType;
 	}
 	
+	//checks if withdrawal is legal, prints error message if not
 	public void withdraw(int amount) {
 		int newBalance = accountBalance - amount;
 		if (newBalance<0) System.out.println("Error: not enough funds");
@@ -21,6 +22,7 @@ public class Account {
 		accountBalance += amount;
 	}
 	
+	//prints account details
 	public void dispAccountDetails() {
 		System.out.println("Account Number: " + accountNo
 				+ "\n Account Type: " + accountType
