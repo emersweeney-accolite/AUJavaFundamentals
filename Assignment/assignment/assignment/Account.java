@@ -25,7 +25,7 @@ public class Account {
 	//prints account details
 	public void dispAccountDetails() {
 		System.out.println("Account Number: " + accountNo
-				+ "\n Account Type: " + accountType
-				+ "\n Account Balance: " + accountBalance);
+				+ "\nAccount Type: " + accountType
+				+ "\nAccount Balance: " + accountBalance);
 	}
 }

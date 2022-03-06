@@ -13,7 +13,7 @@ public class Book {
 	
 	public void display() {
 		System.out.println("Book Name: " + bname
-				+ "\n Book Number: " + bno +
-				"\n Book Price: £" + price);
+				+ "\nBook Number: " + bno +
+				"\nBook Price: £" + price);
 	}
 }
